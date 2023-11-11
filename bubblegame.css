@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    background-color: rgb(213, 204, 115);
+    text-align: center;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(213, 204, 115);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#panel{
+
+    width: 80%;
+    height: 80%;
+    background-color: #c38686;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+#ptop{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(190, 107, 55);
+
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.elem h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+.box{
+     color: #000;
+     font-weight: 600;
+    font-size: 20px;
+    padding: 10px 20px ;
+    background-color: #fff;
+    border-radius: 5px;
+}
+#pbtm{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+    height: calc(100% - 100px); /* % se pixel unit ko minuns kr skte hai using calc */
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(146, 170, 48);
+    color: #000;
+    font-weight: 500;
+}
+.bubble:hover{
+    background-color: rgb(72, 141, 72);
+    cursor: pointer;
+}
